@@ -14,8 +14,8 @@ ext {
 // some description about your library
     libraryDescription = 'Libraria para lanzamiento de IntegracionVideoVigilancia empresarial.'
     // github
-    siteUrl = 'https://github.com/global22/LibreriaVideoVigilanciaEmp'
-    gitUrl = 'https://github.com/global22/LibreriaVideoVigilanciaEmp.git'
+    siteUrl = 'https://github.com/global22/LibreriaVideoVigilanciaEmp5'
+    gitUrl = 'https://github.com/global22/LibreriaVideoVigilanciaEmp5.git'
 
     libraryVersion = '0.0.1'
 
