@@ -1,17 +1,15 @@
-package com.global.imac2.libreriavideovigilancia;
+package com.global.web.libreriavideovigilancia;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-//import com.global.prueba.LaunchVideovigilancia;
-//import com.global.imac2.integracionvideovigilancia.LaunchVideovigilancia;
+import com.global.imac2.libreriavideovigilancia.R;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,27 +22,27 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*launchVideovigilancia = new LaunchVideovigilancia();
+        //launchVideovigilancia = new LaunchVideovigilancia();
 
         btnIntegracion = (Button)findViewById(R.id.btnIntegracion);
-        btnDescarga = (Button)findViewById(R.id.btnDescarga);
+        //btnDescarga = (Button)findViewById(R.id.btnDescarga);
         edtCorreo = (EditText)findViewById(R.id.edtCorreo);
         edtPass = (EditText)findViewById(R.id.edtPass);
         edtPass.setVisibility(View.GONE);
         edtCorreo.setVisibility(View.GONE);
 
-        AlertDialog alertDialog = AlertaIntegracion();
-        alertDialog.show();
+        //AlertDialog alertDialog = AlertaIntegracion();
+        //alertDialog.show();
 
-        btnIntegracion.setOnClickListener(new View.OnClickListener() {
+        /*btnIntegracion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Boolean statusIntegracion = launchVideovigilancia.StartVigilancia(getApplicationContext());
                 Log.e("Integracion",  ""+statusIntegracion);
             }
-        });
+        });*/
 
-        btnDescarga.setOnClickListener(new View.OnClickListener() {
+        /*btnDescarga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 launchVideovigilancia.DescargaVideoVigilancia(getApplicationContext());

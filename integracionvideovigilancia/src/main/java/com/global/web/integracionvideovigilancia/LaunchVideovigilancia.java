@@ -1,4 +1,4 @@
-package com.global.imac2.integracionvideovigilancia;
+package com.global.web.integracionvideovigilancia;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,6 +7,8 @@ import android.net.Uri;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
+
+import com.global.imac2.integracionvideovigilancia.R;
 
 public class LaunchVideovigilancia {
     private static final String TAG_LAUNCH = "LaunchVideoVigilancia";

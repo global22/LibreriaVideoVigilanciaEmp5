@@ -6,7 +6,7 @@ ext {
     //project name
     bintrayName = 'IntegracionVideoVigilanciaEmp'
     //enter your package name
-    publishedGroupId = 'com.global.imac2.integracionvideovigilancia'
+    publishedGroupId = 'com.global.web.integracionvideovigilancia'
     //project name
     libraryName = 'IntegracionVideoVigilanciaEmp'
     //project name
@@ -17,7 +17,7 @@ ext {
     siteUrl = 'https://github.com/global22/LibreriaVideoVigilanciaEmp5'
     gitUrl = 'https://github.com/global22/LibreriaVideoVigilanciaEmp5.git'
 
-    libraryVersion = '0.0.1'
+    libraryVersion = '0.0.2'
 
     developerId = 'global'
     developerName = 'Global Corporation'

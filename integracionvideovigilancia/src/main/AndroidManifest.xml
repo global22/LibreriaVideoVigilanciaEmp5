@@ -3,7 +3,7 @@
     package="com.global.imac2.integracionvideovigilancia">
 
     <application>
-        <activity android:name=".AlertaIntegracion"></activity>
+        <activity android:name="com.global.web.integracionvideovigilancia.AlertaIntegracion"></activity>
     </application>
 
 </manifest>

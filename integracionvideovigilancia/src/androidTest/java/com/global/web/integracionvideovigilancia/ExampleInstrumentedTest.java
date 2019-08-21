@@ -1,4 +1,4 @@
-package com.global.imac2.libreriavideovigilancia;
+package com.global.web.integracionvideovigilancia;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.global.imac2.libreriavideovigilancia", appContext.getPackageName());
+        assertEquals("com.global.imac2.integracionvideovigilancia.test", appContext.getPackageName());
     }
 }

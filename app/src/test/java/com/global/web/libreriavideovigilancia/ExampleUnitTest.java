@@ -1,4 +1,4 @@
-package com.global.imac2.libreriavideovigilancia;
+package com.global.web.libreriavideovigilancia;
 
 import org.junit.Test;
 

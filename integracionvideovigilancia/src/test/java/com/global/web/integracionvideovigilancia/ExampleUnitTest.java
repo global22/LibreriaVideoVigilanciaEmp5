@@ -1,4 +1,4 @@
-package com.global.imac2.integracionvideovigilancia;
+package com.global.web.integracionvideovigilancia;
 
 import org.junit.Test;
 
