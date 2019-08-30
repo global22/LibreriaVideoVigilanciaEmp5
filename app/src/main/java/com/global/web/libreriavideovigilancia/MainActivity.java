@@ -24,9 +24,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        webView = (WebView)findViewById(R.id.webview);
-
+        
         launchVideovigilancia = new LaunchVideovigilancia();
 
         btnIntegracion = (Button)findViewById(R.id.btnIntegracion);
