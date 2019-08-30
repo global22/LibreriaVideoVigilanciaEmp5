@@ -5,12 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.EditText;
 
 import com.global.imac2.libreriavideovigilancia.R;
 import com.global.web.integracionvideovigilancia.LaunchVideovigilancia;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,10 +18,14 @@ public class MainActivity extends AppCompatActivity {
     private Button btnIntegracion, btnDescarga;
     private LaunchVideovigilancia launchVideovigilancia;
 
+    private WebView webView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        webView = (WebView)findViewById(R.id.webview);
 
         launchVideovigilancia = new LaunchVideovigilancia();
 
@@ -43,12 +47,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnDescarga.setOnClickListener(new View.OnClickListener() {
+        /*btnDescarga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 launchVideovigilancia.DescargaVideoVigilancia(getApplicationContext());
             }
-        });
+        });*/
     }
 
     private AlertDialog AlertaIntegracion(){

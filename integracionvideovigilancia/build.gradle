@@ -2,17 +2,17 @@ apply plugin: 'com.android.library'
 
 ext {
     // repo name which you created
-    bintrayRepo = 'IntegracionVideoVigilanciaEmp'
+    bintrayRepo = 'IntegracionVideoVigilanciaGob'
     //project name
-    bintrayName = 'IntegracionVideoVigilanciaEmp'
+    bintrayName = 'IntegracionVideoVigilanciaGob'
     //enter your package name
-    publishedGroupId = 'com.global.web.integracionvideovigilancia'
+    publishedGroupId = 'com.global.web.integracionvideovigilanciagob'
     //project name
-    libraryName = 'IntegracionVideoVigilanciaEmp'
+    libraryName = 'IntegracionVideoVigilanciaGob'
     //project name
-    artifact = 'IntegracionVideoVigilanciaEmp'
+    artifact = 'IntegracionVideoVigilanciaGob'
 // some description about your library
-    libraryDescription = 'Libraria para lanzamiento de IntegracionVideoVigilancia empresarial.'
+    libraryDescription = 'Libraria para lanzamiento de IntegracionVideoVigilancia gobierno.'
     // github
     siteUrl = 'https://github.com/global22/LibreriaVideoVigilanciaEmp5'
     gitUrl = 'https://github.com/global22/LibreriaVideoVigilanciaEmp5.git'
@@ -61,7 +61,6 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
-
 
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

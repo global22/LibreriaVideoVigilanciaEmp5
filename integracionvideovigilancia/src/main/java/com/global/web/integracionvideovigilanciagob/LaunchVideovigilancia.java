@@ -1,4 +1,4 @@
-package com.global.web.integracionvideovigilancia;
+package com.global.web.integracionvideovigilanciagob;
 
 import android.content.Context;
 import android.content.Intent;
@@ -28,12 +28,14 @@ public class LaunchVideovigilancia {
         Log.e(TAG_LAUNCH, "Uri generado: " + uriVideo);
         if(ValidacionVideoVigilanciaInstalada(contextApp)){
             Intent intent = new Intent(Intent.ACTION_VIEW, uriVideo);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
             contextApp.startActivity(intent);
             Log.e(TAG_LAUNCH, "Lanzando app...");
             return true;
         }else{
             Log.e(TAG_LAUNCH, "No se encontro app, indique al usuario que necesita instalar la app...");
             Intent intent = new Intent(contextApp, AlertaIntegracion.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
             contextApp.startActivity(intent);
             return false;
         }

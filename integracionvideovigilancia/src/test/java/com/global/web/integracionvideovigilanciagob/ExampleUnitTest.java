@@ -1,4 +1,4 @@
-package com.global.web.integracionvideovigilancia;
+package com.global.web.integracionvideovigilanciagob;
 
 import org.junit.Test;
 

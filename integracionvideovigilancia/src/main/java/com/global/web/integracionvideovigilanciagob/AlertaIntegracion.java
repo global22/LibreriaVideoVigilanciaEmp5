@@ -1,4 +1,4 @@
-package com.global.web.integracionvideovigilancia;
+package com.global.web.integracionvideovigilanciagob;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
