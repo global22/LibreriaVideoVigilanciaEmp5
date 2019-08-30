@@ -11,7 +11,6 @@ import android.widget.EditText;
 import com.global.imac2.libreriavideovigilancia.R;
 import com.global.web.integracionvideovigilancia.LaunchVideovigilancia;
 
-
 public class MainActivity extends AppCompatActivity {
 
     private EditText edtCorreo, edtPass;
@@ -43,12 +42,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnDescarga.setOnClickListener(new View.OnClickListener() {
+        /*btnDescarga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 launchVideovigilancia.DescargaVideoVigilancia(getApplicationContext());
             }
-        });
+        });*/
     }
 
     private AlertDialog AlertaIntegracion(){
